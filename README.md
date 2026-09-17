@@ -86,7 +86,7 @@ If `javac` is missing you have a JRE, not a JDK — install `openjdk-21-jdk` (Li
 ### 1. Clone
 
 ```bash
-git clone https://github.com/<your-username>/hostelhub.git
+git clone https://github.com/minmon6767/hostelhub.git
 cd hostelhub
 ```
 
@@ -326,10 +326,3 @@ nothing but a JDK.
 - Data is written on exit or on "Save data now"; a hard kill loses the current session
 - No authentication; anyone with terminal access is effectively the warden
 - Rent is defined per room type and not yet tracked as actual payments
-
-## Possible next steps
-
-- Swap the CSV repository for SQLite (the `Repository` interface already isolates this)
-- Fee tracking and dues reports
-- Export reports to CSV or PDF
-- Separate student and warden logins with different menus
